@@ -25,8 +25,8 @@ INSERT INTO `clients` (`client_name`,`client_surname`) VALUES ('petya','petrov')
 ;
 
 INSERT INTO `clients_discount` (`client_id`,`discount`) VALUES ('1','0.9'),
-('ivan','0.95'),
-('fedor','0.96')
+('2','0.95'),
+('3','0.96')
 ;
 
 INSERT INTO `books` (`book_name`) VALUES ('Незнайка'),
@@ -57,7 +57,7 @@ INSERT INTO `book_discount` (`book_id`,`discount`) VALUES ('1','0.9'),
 ('3','0.96'),
 ('4','0.96'),
 ('5','0.98'),
-('6','0.93'),
+('6','0.93')
 ;
 
 SELECT `book_name` FROM `books` WHERE `id` IN
